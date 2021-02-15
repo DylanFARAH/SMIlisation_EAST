@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><EAST transition="burst">
+<PREFERENCES>
+<PUCE colorpuce="green" level="1" type="square"/><PUCE colorpuce="orange" level="2" type="disc"/><PUCE colorpuce="maroon" level="3" type="circle"/><PAGE font="Comic Sans MS"/><TITLE_PAGE font="Comic Sans MS"/>
+</PREFERENCES>
+<LOGO_GAUCHE fichier="/home/didier/Desktop/Logos/PetitUEVE.jpg"/>
+<PIEDPAGE_GAUCHE>Juridique
+</PIEDPAGE_GAUCHE>
+<PIEDPAGE_DROIT>
+Didier COURTAUD
+</PIEDPAGE_DROIT>
+<PAGE_TITRE>
+<TITRE>Aspects juridiques des logiciels libres</TITRE>
+</PAGE_TITRE>
+<PARTIE>
+<TITRE>Introduction</TITRE>
+<SECTION>
+<TITRE>Rappel</TITRE>
+<LISTE mode="incremental">
+<EL>Un logiciel libre est défini par quatre libertés
+	<LISTE>
+		<EL>Liberté d'utilisation
+			<LISTE>
+				<EL>Régit l'utilisation possible du logiciel</EL>
+			</LISTE>
+		</EL>
+		<EL>Liberté d'étudier 
+			<LISTE>
+				<EL>Régit l'accès au code source du logiciel</EL>
+			</LISTE>
+		</EL>
+		<EL>Liberté de modifier
+			<LISTE>
+				<EL>Régit les contributions possibles</EL>
+			</LISTE>
+		</EL>
+		<EL>Liberté de distribuer
+			<LISTE>
+				<EL>Régit la diffusion du logiciel</EL>
+			</LISTE>
+		</EL>
+	</LISTE>
+</EL>
+</LISTE>
+
+</SECTION>
+<SECTION>
+<TITRE>Vers une définition plus juridique</TITRE>
+<LISTE mode="incremental">
+<EL>Ces libertés reposent avant tout sur des aspects techniques</EL>
+<EL>Mais il faut confronter ces libertés au marché général du logiciel
+	<LISTE>
+		<EL>Comment protéger les droits individuels des auteurs ?</EL>
+		<EL>Comment contrôler l'avenir d'un logiciel ?</EL>
+		<EL>Comment faire cohabiter des logiciels libres et non libres ?</EL>
+	</LISTE>
+</EL>
+<EL>C'est tout le but des licences logicielles libres</EL>
+</LISTE>
+</SECTION>
+</PARTIE>
+<PARTIE>
+<TITRE>Les licences du logiciel libre</TITRE>
+<SECTION>
+<TITRE>La licence d'un logiciel</TITRE>
+<LISTE mode="incremental">
+<EL>On appelle<EMPHASE> licence d'un logiciel </EMPHASE>un contrat entre le créateur du logiciel et l'utilisateur du logiciel</EL>
+<EL>Elle définit : 
+	<LISTE>
+		<EL>les droits que l'auteur se réserve au titre du<EMPHASE> droit d'auteur </EMPHASE></EL>
+		<EL>Les droits qu'il/elle donne à l'utilisateur</EL>
+		<EL>Les restrictions qu'il/elle impose à l'utilisateur</EL>
+	</LISTE>
+</EL>
+<EL>Peut s'appuyer sur des brevets logiciels ( aux États Unis )</EL>
+<EL>Souvent matérialisé par le <EMPHASE>copyright</EMPHASE> </EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Licence du logiciel libre</TITRE>
+<LISTE mode="incremental">
+<EL>A l'opposé des logiciels propriétaires , les logiciels libres ne veulent qu'imposer leur quatre libertés et les faire perdurer</EL>
+<EL>Notion de <LIEN_EXTERNE href="https://fr.wikipedia.org/wiki/Copyleft">copyleft</LIEN_EXTERNE></EL>
+<EL>Ils explicitent donc dans leur licence comment doivent être prises en compte les libertés des auteurs et des utilisateurs</EL>
+<EL>Notion de <LIEN_EXTERNE href="https://fr.wikipedia.org/wiki/Copyleft#Licence_virale">viralité</LIEN_EXTERNE></EL>
+<EL>Les licences du logiciel libre sont <LIEN_EXTERNE href="https://fr.wikipedia.org/wiki/Licence_libre#Liste_de_licences_libres_ou_de_libre_diffusion">très nombreuses</LIEN_EXTERNE></EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Licence du logiciel libre (suite)</TITRE>
+<LISTE>
+<TITRE>GPL</TITRE>
+<EL>La première licence libre est la GNU Public License</EL>
+<EL>Première version <LIEN_EXTERNE href="https://www.gnu.org/licenses/old-licenses/gpl-1.0.html">publiée en 1989</LIEN_EXTERNE></EL>
+<EL>Dernière version (3) <LIEN_EXTERNE href="https://www.gnu.org/licenses/gpl-3.0.fr.html">publiée  le 29 Juin 2007</LIEN_EXTERNE></EL>
+<EL>Implémente le copyleft fort</EL>
+<EL>Virale : impose que le code modifié soit encore sous licence GPL</EL>
+<EL><LIEN_EXTERNE href="ttps://fr.wikipedia.org/wiki/Licence_publique_générale_limitée_GNU">Version "allégée" LGPL : copyleft moins fort</LIEN_EXTERNE> </EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Licence du logiciel libre (suite)</TITRE>
+<LISTE>
+<TITRE>BSD</TITRE>
+<EL>La <LIEN_EXTERNE href="https://fr.wikipedia.org/wiki/Licence_BSD">licence Berkeley Software Distribution License </LIEN_EXTERNE>est la licence la plus  permissive
+	<LISTE>
+		<EL>Aucune restriction à l'intégration avec des logiciels libres ou pas</EL>
+		<EL>Permet de protéger les auteurs quant à l'emploi de leur nom dans des produits dérivés</EL>
+		<EL>Décharge les auteurs des éventuels problèmes connus ou inconnus liés à l'utilisation du code</EL>
+	</LISTE>
+</EL>
+<EL>Compatible avec la GPL puisque les termes de la licence GPL respectent tous ceux de la licence BSD</EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Licence du logiciel libre (suite)</TITRE>
+<LISTE>
+<TITRE>MIT</TITRE>
+<EL>Autre licence permissive provenant de l'Institut de technologie du Massachusetts (MIT) à la fin des années 1980</EL>
+<EL>Elle donne  droit illimité de l'utiliser, le copier, le modifier, le fusionner, le publier, le distribuer, le vendre et le "sous-licencier" (l'incorporer dans une autre licence)</EL>
+<EL>La seule obligation est d'incorporer la notice de licence et de copyright de la licence dans toutes les copies</EL>
+<EL>Beaucoup de licences dérivées dont celle de Mozilla</EL>
+
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Licence du logiciel libre (suite)</TITRE>
+<LISTE>
+<TITRE>CECILL</TITRE>
+<EL>Licence française créée par <LIEN_EXTERNE href="https://cecill.info/">le CEA, le CNRS et l'INRIA</LIEN_EXTERNE> en 2004</EL>
+<EL>But : franciser la GPLL</EL>
+<EL>Version compatible avec le droit français
+	<LISTE>
+		<EL>Responsabilité civile</EL>
+		<EL>Propriété intellectuelle </EL>
+	</LISTE>
+</EL>
+<EL>Un peut trop franco-centrique</EL>
+</LISTE>
+</SECTION>
+</PARTIE>
+<PARTIE>
+<TITRE>Une autre approche</TITRE>
+
+<SECTION>
+<TITRE>Des juristes à l'origine</TITRE>
+<LISTE>
+<EL>Pour lutter contre la prolifération des licences, des juristes américains décident de proposer une autre approche</EL>
+<EL>En 2001, James Boyle, Michael Carroll, Molly Shaffer Van Houweling, et  Lawrence Lessig ( juristes et informaticiens) créent l'association Creative Commons</EL>
+<EL>En France, en 2003, Danièle Bourcier et Mélanie Dulong De Rosnay créent la branche française en l'affiliant au CERSA / CNRS</EL>
+<EL>C'est l'auteur qui est maintenant à l'origine des droits donnés pour le partage de ses oeuvres
+	<LISTE>
+		<EL>Le but est de fournir un outil juridique qui garantit à la fois la protection des droits de l'auteur d'une &#339;uvre artistique et la libre circulation du contenu culturel de cette &#339;uvre,</EL>
+	</LISTE>
+ </EL>
+<EL>Approche type <EMPHASE>droit d'auteur </EMPHASE>par opposition aux approches technophiles</EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Qui est intéressé ?</TITRE>
+
+	<LISTE mode="incremental_ombre"><TITRE>Les auteurs qui souhaitent</TITRE>
+		<EL>Partager et faciliter l'utilisation de leur création par d'autres</EL>
+		<EL>Autoriser gratuitement la reproduction et la diffusion (sous conditions)</EL>
+		<EL>Accorder plus de droits aux utilisateurs en complétant le droit d'auteur qui s'applique par défaut</EL>
+		<EL>Faire évoluer une &#339;uvre et enrichir le patrimoine commun.</EL>
+		<EL>Économiser les coûts de transaction.</EL>
+		<EL>Légaliser le peer to peer de leurs &#339;uvres (réseau de partage de données client à client, souvent sans serveur)</EL>
+	</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Vue générale</TITRE>
+<LISTE mode="incremental">
+<EL>Le système se base sur plusieurs paramètres binaires : 
+	<LISTE>
+		<EL>commercial / non commercial </EL>
+		<EL>modifiable / non modifiable </EL>
+		<EL>même licence ou pas</EL>
+	</LISTE>
+</EL>
+<EL>Au total, 2 x 2 x 2 = 8 possibilités mais des contradictions limitent le nombre à 6</EL>
+<EL>Auxquelles, on adjoint la possibilité "blanche" où l'auteur renonce à tous ses droits </EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Différents droits</TITRE>
+<LISTE mode="incremental">
+<TITRE>Droits possibles</TITRE>
+<EL><EMPHASE textcolor="red">Attribution [BY] (Attribution)</EMPHASE> : l'&#339;uvre peut être librement utilisée, à la condition de l'attribuer à l'auteur en citant son nom. Cela ne signifie pas que l'auteur est en accord avec l'utilisation qui est faite de ses &#339;uvres</EL>
+<EL><EMPHASE textcolor="red">Pas d'utilisation commerciale [NC] (Noncommercial) :</EMPHASE> le titulaire de droits peut autoriser tous les types d&#8217;utilisation ou au contraire restreindre aux utilisations non commerciales (les utilisations commerciales restant soumises à son autorisation). Elle autorise à reproduire, diffuser, et à modifier une &#339;uvre, tant que l'utilisation n'est pas commerciale.</EL>
+<EL><EMPHASE textcolor="red">Pas de modification [ND] (NoDerivs) :</EMPHASE> le titulaire de droits peut continuer à réserver la faculté de réaliser des &#339;uvres de type dérivées ou au contraire autoriser à l'avance les modifications, traductions</EL>
+<EL><EMPHASE textcolor="red">Partage dans les mêmes conditions [SA] (ShareAlike) </EMPHASE>: le titulaire des droits peut autoriser à l'avance les modifications ; peut se superposer l'obligation (SA) pour les &#339;uvres dites dérivées d'être proposées au public avec les mêmes libertés que l'&#339;uvre originale (sous les mêmes options Creative Commons)</EL>
+<EL><EMPHASE textcolor="red">Zéro :</EMPHASE> le créateur renonce à ses droits patrimoniaux (il est impossible de se défaire de son droit moral en France). Aucune limite à la diffusion de l'&#339;uvre n'existe, sous réserve des législations locales. Dans un certain nombre d&#8217;États, la licence CC0 équivaut à la licence CC-BY</EL>
+</LISTE>
+</SECTION>
+<SECTION>
+<TITRE>Tableau des droits CC</TITRE>
+<ENVIMAGE>
+<IMAGE fichier="../Util/TableauCC.jpg"/>
+</ENVIMAGE>
+</SECTION>
+<SECTION>
+<TITRE>Choo Choo Choose Your License</TITRE>
+
+<ENVIMAGE>
+<IMAGE fichier="../Util/LicencesCC.png" hauteur="55" largeur="55"/>
+</ENVIMAGE>
+</SECTION>
+<SECTION>
+<TITRE>Avantages des licences Creative Commons</TITRE>
+<LISTE>
+<EL>Elles sont simples à comprendre</EL>
+<EL>Simples à utiliser : pas d'inscription , de paiement</EL>
+<EL>Les logos rendent la lecture rapide
+	<LISTE>
+		<EL>par les humains</EL>
+		<EL>par les machines</EL>
+	</LISTE>
+</EL>
+<EL>Peuvent être complétées
+	<LISTE>
+		<EL><LIEN_EXTERNE href="https://wiki.creativecommons.org/wiki/CCPlus">CCPlus</LIEN_EXTERNE></EL>
+	</LISTE>
+</EL>
+</LISTE>
+</SECTION>
+</PARTIE>
+<PARTIE>
+<TITRE>Conclusion</TITRE>
+<SECTION>
+<TITRE>Conclusion</TITRE>
+<LISTE>
+<EL>Lisez bien les licences fournies avec les logiciels libres
+	<LISTE>
+		<EL>Libre ne veut pas forcément dire gratuit
+			<LISTE>
+				<EL>les <EMPHASE>shareware</EMPHASE> sont des logiciels libres mais payants </EL>
+			</LISTE>
+		</EL>
+	</LISTE>
+</EL>
+<EL>Ne vous mettez pas en faute : les licences CC ont été adaptées au droit français</EL>
+<EL>Si vous créez des logiciels ( ou des oeuvres), pensez à bien définir les droits que vous accordez</EL>
+</LISTE>
+</SECTION>
+</PARTIE>
+
+
+
+
+
+<PAGE_CONCLUSION>
+<PARAGRAPHE>
+Vous avez des questions ?
+</PARAGRAPHE><EMAIL>didier.courtaud@univ-evry.fr</EMAIL>
+</PAGE_CONCLUSION>
+</EAST>
