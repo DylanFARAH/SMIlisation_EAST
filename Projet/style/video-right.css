@@ -1,6 +1,6 @@
 @import url(../../timeline/style.css);
 @import url(layout.css);
-@import url(theme-gray.css);
+@import url(style.css);
 
 /* hide inactive sublists */
 .smil-toc li ul {
